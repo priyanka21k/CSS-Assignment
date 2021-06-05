@@ -1,0 +1,93 @@
+
+<!docytpe HTML>
+<HTML>
+	<HEAD>
+		<TITLE>
+            Zoo Keeper Form
+        </TITLE>
+        <link rel="stylesheet" href="style.css">
+	</HEAD>
+<BODY>
+    <fieldset>
+    <h1> Zoo Keeper Application Form</h1>
+    <p><i>Please complete the form. Mandatory fields are marked with a<em>*</em> </i></p>
+
+    <fieldset>
+        <legend><strong>CONTACT DETAILS</strong></legend>
+        <form novalidate>
+            <table cellpadding='5' width='600'>
+                <tr>
+                    <td><label for='name'  >Name<em>*</em></label></td>
+                    <td><input type='text' id='name' required></TD> 
+                </tr>
+                <tr>                        <td><label for='name'>Telephone </label></td>
+                    <td><input type='number' id='number' ></TD> 
+                </tr>
+                <tr>
+                    <td><label for='Email'>Email<em>*</em> </label></td>
+                    <td><input type='text' id='name' required></TD>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+<br>
+
+    
+    <fieldset>
+        <legend><strong>Personal Information</strong></legend>
+        <form novalidate>
+            <table cellpadding='5' width='600'>
+                <tr>
+                    <td><label for='age'>Age <em>*</em></label></td>
+                    <td><input type='number' id='age' required></TD> 
+                </tr>
+                <tr>   
+                    <TD><label for='gender'>Gender</label></TD>
+                    <TD>
+                        <SELECT>
+                            <OPTION>Male</OPTION>
+                            <OPTION>Female</OPTION>
+                        </SELECT>
+                    </TD>
+                </tr>
+                <tr>
+                    <td><label for='Resaon'>When did you first know you wanted to be a zoo keeper?</label></td>
+                    <td><TEXTAREA rows='5' cols='25' id='Resaon'></TEXTAREA></TD>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+
+    <br>
+    <fieldset>
+        <legend><strong>Pick Your Favorite Animals</strong></legend>
+        <form novalidate>
+            <table cellpadding='5' width='600'>
+                <tr>
+                    <td>
+                        <input type='checkbox' value='Zebra' NAME='Zebra' />  <LABEL FOR='Zebra'>Zebra</LABEL>
+                        <INPUT TYPE='CHECKBOX' VALUE='Cat' NAME='Cat' />  <LABEL FOR='Cat'>Cat</LABEL>
+                        <INPUT TYPE='CHECKBOX' VALUE='Anaconda' NAME='Anaconda' />  <LABEL FOR='Anaconda'>Anaconda</LABEL>
+                        <INPUT TYPE='CHECKBOX' VALUE='Human' NAME='Human' />  <LABEL FOR='Human'>Human</LABEL>
+                    </TD>
+                </tr>
+                <tr>
+                    <td>
+                        <input type='checkbox' value='Elephant' NAME='Elephant' />  <LABEL FOR='Elephant'>Elephant</LABEL>
+                        <INPUT TYPE='CHECKBOX' VALUE='Wildebeest' NAME='Wildebeest' />  <LABEL FOR='Wildebeest'>Wildebeest</LABEL>
+                        <INPUT TYPE='CHECKBOX' VALUE='Pigeon' NAME='Pigeon' />  <LABEL FOR='Pigeon'>Pigeon</LABEL>
+                        <INPUT TYPE='CHECKBOX' VALUE='Crab' NAME='Crab' />  <LABEL FOR='Crab'>Crab</LABEL>
+                    
+
+                    </TD> 
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+<br>
+ </fieldset><br>
+<INPUT TYPE='SUBMIT' VALUE='Submit Application' />
+
+</BODY>
+</HTML>
